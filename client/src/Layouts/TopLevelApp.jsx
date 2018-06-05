@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
+import './TopLevelApp.css';
 import Calculator from '../Components/Calculator';
 
-class App extends Component {
+class TopLevelApp extends Component {
   render() {
     return (
       <React.Fragment>
@@ -18,4 +18,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default TopLevelApp;
